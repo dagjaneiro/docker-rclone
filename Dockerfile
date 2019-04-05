@@ -1,9 +1,7 @@
-FROM alpine:3.5
-
-MAINTAINER Brian J. Cardiff <bcardiff@gmail.com>
+FROM alpine:latest
 
 ENV RCLONE_VERSION=current
-ENV ARCH=amd64
+ENV ARCH=arm
 ENV SYNC_SRC=
 ENV SYNC_DEST=
 ENV SYNC_OPTS=-v
